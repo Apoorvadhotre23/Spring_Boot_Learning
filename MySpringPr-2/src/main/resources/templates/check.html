@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Conditionl Statement in thymeleaf</title>
+	</head>
+	<body>
+		<h1>Student Age</h1>
+		<p>Age: <span th:text="${age}"></span></p>
+		
+		<p th:if="${age >= 18}">Student is Adult</p>
+		<p th:unless="${age >= 18}">Student is Minor</p>
+	</body>
+</html>
