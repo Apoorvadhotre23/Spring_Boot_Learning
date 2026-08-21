@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator Application</title>
+	</head>
+	<body>
+		
+		<h3 th:text="${error}"></h3>
+		<h2 th:text="${res}">Your Result: </h2>
+		
+		<form action="/calculate">
+			<label for="n1">Enter n1:</label>
+			<input type="number" id="n1" name="n1"> <br>
+			
+			<label for="n2">Enter n2:</label>
+		    <input type="number" id="n2" name="n2"> <br>
+			
+			<button name="operation" value="add">Add</button>
+			<button name="operation" value="subtract">Subtract</button>
+			<button name="operation" value="multiply">Multiply</button>
+			<button name="operation" value="divide">Divide</button>
+			
+		</form>
+	</body>
+</html>
