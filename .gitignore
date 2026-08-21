@@ -1,0 +1,25 @@
+# Maven
+**/target/
+**/mvnw
+**/mvnw.cmd
+
+# Spring Boot
+**/src/main/resources/application.properties
+
+# Eclipse / STS
+**/.classpath
+**/.project
+**/.settings/
+
+# IntelliJ
+**/.idea/
+**/*.iml
+
+# VS Code
+**/.vscode/
+
+# Maven wrapper
+**/.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot
+**/src/main/resources/application.properties
